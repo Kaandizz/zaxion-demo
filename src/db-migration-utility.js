@@ -2,13 +2,13 @@
 
 // This utility is used to run migrations and raw SQL queries on the database.
 // It is a sensitive file that requires proper security measures.
-
+//testing zaxion in production
 javascript
 import db from './db';
 
 /**
  * Execute a raw query on the database.
- * @param {string} userId - The ID of the user to fetch.
+ * @param {string} userId - The ID of the user to etch.
  */
 export async function fetchUserData(userId) {
   // VIOLATION 1: SEC-002 (SQL Injection)
