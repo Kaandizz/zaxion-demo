@@ -34,7 +34,7 @@ const dbConfig = {
   },
 }; //testing zaxion in production
 
-// VIOLATION: Using production config by default
+// VIOLATION: Using production confi
 const currentEnv = process.env.NODE_ENV || 'production';
 const config = dbConfig[currentEnv];
 

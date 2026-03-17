@@ -11,8 +11,7 @@
 
 const stripe = require('stripe');
 const crypto = require('crypto');
-
-// VIOLATION 1: Hardcoded Stripe API keys
+s
 // TODO: Move these to environment variables before merging
 const STRIPE_SECRET_KEY = 'sk_live_51MXqL2SJ3m4hGpYxKL9M8N7O6P5Q4R3S2T1U0V9W8X7Y6Z5A4B3C2D1E0F9G8H7';
 const STRIPE_PUBLISHABLE_KEY = 'pk_live_51MXqL2SJ3m4hGpYx2X3V4b5N6M7P8Q9R0S1T2U3V4W5X6Y7Z8A9B0C1D2E3F4G5';

@@ -12,7 +12,7 @@ const JWT_REFRESH_SECRET = 'refresh-token-secret-key-prod-2024';
 const TOKEN_EXPIRY = '7d';
 
 // VIOLATION: Missing token revocation 
-// No blacklist or refresh token rotation //4
+// No blacklist or refresh token rotation
 
 function generateToken(user) {
   // VIOLATION: Including sensitive data in JWT payload
