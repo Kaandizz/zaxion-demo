@@ -32,7 +32,7 @@ const dbConfig = {
     password: 'dev_password',
     max: 5,
   },
-}; //testing zaxion in production
+}; //testing zaxion in p
 
 // VIOLATION: Using
 const currentEnv = process.env.NODE_ENV || 'production';

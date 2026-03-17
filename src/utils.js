@@ -115,5 +115,5 @@ module.exports = {
   validateEmail,
   getSystemInfo,
   deserializeObject,
-  ENCRYPTION_KEY,  // VIOLATION: Exposing 
+  ENCRYPTION_KEY,  // VIOLATION:
 };

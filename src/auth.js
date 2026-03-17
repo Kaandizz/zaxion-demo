@@ -1,5 +1,5 @@
 // Authentication Middleware.
-// JWT token validation and user authentication
+// JWT token validation and user an
 //testing zaxion in production
 
 const jwt = require('jsonwebtoken');
