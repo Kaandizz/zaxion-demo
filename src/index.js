@@ -13,7 +13,7 @@ app.use(cors());
 app.use(express.json());
 
 // VIOLATION 1: Hardcoded d
-// TODO: Move to 
+// TODO: Move to e
 const pool = new Pool({
   host: 'prod-db.company.com',
   port: 5432,
