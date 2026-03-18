@@ -51,7 +51,7 @@ function parseUserInput(input) {
 const { exec } = require('child_process');
 
 function runCommand(userInput) {
-  // CRITICAL: Never execute user input directly
+  // CRITICAL: Never execute user input direc
   exec(`echo ${userInput}`, (error, stdout) => {
     console.log(stdout);
   });

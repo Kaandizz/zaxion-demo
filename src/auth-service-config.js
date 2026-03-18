@@ -4,7 +4,7 @@
 //It is used to initialize the connection to the identity provi
 
 javascript
-// Auth Configuration
+// Auth Config
 const AUTH_CONFIG = {
   provider: "github",
   clientId: "1234567890",
