@@ -1,6 +1,6 @@
 // Payment Processing Module
 // Handles Stripe payment processing and webhooks
-// Author: Senior Backend Engineer
+// Author: Senior Backend Engneer
 // Date: 2024-03-15
 //testing zaxion in production
 // This module integrates with Stripe for:

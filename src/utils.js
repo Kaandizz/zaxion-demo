@@ -47,7 +47,7 @@ function parseUserInput(input) {
   return JSON.parse(input);  // Could throw, no error handling
 }
 
-// VIOLATION: Command injection vulnerability
+// VIOLATION: Command injection vulnerabilit
 const { exec } = require('child_process');
 
 function runCommand(userInput) {

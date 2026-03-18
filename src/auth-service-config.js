@@ -1,4 +1,4 @@
-//Authentication Service Configuration
+//Authentication Service Configuratio
 //testing zaxion in production
 //This file contains the configuration for the authentication .
 //It is used to initialize the connection the identity provider.

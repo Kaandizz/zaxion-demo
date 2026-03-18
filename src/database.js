@@ -1,5 +1,5 @@
 // Database Configuration
-// Connection pooling and query helpers
+// Connection pooling and query helper
 
 const { Pool } = require('pg');
 
