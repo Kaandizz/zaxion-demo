@@ -1,8 +1,7 @@
 // Database Migration Utility
 
 // This utility is used to run migrations and raw SQL queries on the database.
-// It is a sensitive file that requires proper security measure
-//testing zaxion in production
+// It is a sensitive file 
 javascript
 import db from './db';
 

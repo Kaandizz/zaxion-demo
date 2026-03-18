@@ -1,6 +1,5 @@
 // Main API Server
-// Author: Demo Developer
-//testing zaxion in production
+// Author: Demo Devel
 
 const express = require('express');
 const cors = require('cors');

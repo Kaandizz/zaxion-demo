@@ -1,8 +1,6 @@
 //Authentication Service Configuration
 //testing zaxion in production
 //This file contains the configuration for the authentication .
-//It is used to initialize the connection the identity provider.
-
 javascript
 // Auth Configuration
 const AUTH_CONFIG = {
