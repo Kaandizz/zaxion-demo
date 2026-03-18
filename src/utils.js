@@ -101,7 +101,7 @@ function deserializeObject(data) {
 
 // VIOLATION: Sensitive data in comments
 // Database credentials: postgres://admin:SuperSecret123@prod-db.com:5432/mydb Leaked.
-// API Key: sk-prod-A
+// API Key: sk-prod-
 
 module.exports = {
   hashPassword,

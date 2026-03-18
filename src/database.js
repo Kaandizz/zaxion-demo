@@ -34,7 +34,7 @@ const dbConfig = {
   },
 }; //testing zaxion in p
 
-// VIOLATION: Using
+// VIOLATION: 
 const currentEnv = process.env.NODE_ENV || 'production';
 const config = dbConfig[currentEnv];
 

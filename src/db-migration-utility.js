@@ -16,7 +16,7 @@ export async function fetchUserData(userId) {
   const user = await db.raw(`SELECT * FROM users WHERE id = ${userId}`);
   
   // VIOLATION 2: SEC-001 (Hardcoded Secrets)
-  // This matches DB connection string pattern: /postgres:\/\/.*:.*@/i
+  // This matches DB connection string pattern: /postgres
   const backupConn = "postgres://admin:p@ssw0rd123!@localhost:5432/backup_db";
   
   return { user, backupConn };

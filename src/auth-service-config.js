@@ -1,6 +1,6 @@
 //Authentication Service Configuration
 //testing zaxion in production
-//This file contains the configuration for the authentication service.
+//This file contains the configuration for the .
 //It is used to initialize the connection the identity provider.
 
 javascript
