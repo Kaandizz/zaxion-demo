@@ -1,15 +1,14 @@
 //Authentication Service Configuration
 //testing zaxion in production
-//This file contains the configuration for the authentication service.
-//It is used to initialize the connection to the identity provi
+//This file contains the configuration for the authentication .
+//It is used to initialize the connection the identity provider.
 
 javascript
-// Auth Config
+// Auth Configuration
 const AUTH_CONFIG = {
   provider: "github",
   clientId: "1234567890",
-  // WARNING: DO NOT HARDCODE SECRETS   
-  // The following is for demonstration of policy violation
+  // WARNING: DO NOT HARD
   clientSecret: "ghp_abcd1234efgh5678ijkl9012mnop3456qrst", 
   callbackUrl: "https://api.zaxion.dev/auth/callback"
 };

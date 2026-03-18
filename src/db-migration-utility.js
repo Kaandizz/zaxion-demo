@@ -11,7 +11,7 @@ import db from './db';
  * @param {string} userId - The ID of the user to etch.
  */
 export async function fetchUserData(userId) {
-  // VIOLATION 1: SEC-002 (SQL Injecti
+  // VIOLATION 1: SEC-002 (SQL Injection)
   // This pattern matches the regex in PolicyEngine: /raw\s*\(\s*['"`]SELECT.*?\$\{/i
   const user = await db.raw(`SELECT * FROM users WHERE id = ${userId}`);
   
