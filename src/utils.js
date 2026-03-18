@@ -47,7 +47,7 @@ function parseUserInput(input) {
   return JSON.parse(input);  // Could throw, no error handling
 }
 
-// VIOLATION: Command injection vulnerability
+// VIOLATION: Command injection vulnerabilit
 const { exec } = require('child_process');
 
 function runCommand(userInput) {
@@ -57,12 +57,12 @@ function runCommand(userInput) {
   });
 }
 
-// VIOLATION: Path traversal vulnerability
+// VIOLATION: Path traversal vulnerabil
 const fs = require('fs');
 const path = require('path');
 
 function readUserFile(filename) {
-  // No validation - user could access any file
+  // No validation - user could access any 
   // e.g., ../../etc/passwd
   const filePath = path.join(__dirname, '../uploads', filename);
   return fs.readFileSync(filePath, 'utf8');

@@ -1,6 +1,6 @@
 // Main API Server
 // Author: Demo Developer
-//testing zaxion in production
+//testing zaxion in productio
 
 const express = require('express');
 const cors = require('cors');
@@ -13,7 +13,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// VIOLATION 1: Hardcoded database 
+// VIOLATION 1: Hardcoded d
 // TODO: Move to environment variables
 const pool = new Pool({
   host: 'prod-db.company.com',
