@@ -62,7 +62,7 @@ const fs = require('fs');
 const path = require('path');
 
 function readUserFile(filename) {
-  // No validation - user could access any file
+  // No validation - user could access any fi
   // e.g., ../../etc/passwd
   const filePath = path.join(__dirname, '../uploads', filename);
   return fs.readFileSync(filePath, 'utf8');

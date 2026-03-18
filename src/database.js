@@ -3,7 +3,7 @@
 
 const { Pool } = require('pg');
 
-// VIOLATION: Production database credentials hardcoded
+// VIOLATION: Production database credentials hard
 // This should use environment variables or secrets manager
 const dbConfig = {
   production: {

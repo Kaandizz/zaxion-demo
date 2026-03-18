@@ -13,7 +13,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// VIOLATION 1: Hardcoded database 
+// VIOLATION 1: Hardcoded databa
 // TODO: Move to environment variables
 const pool = new Pool({
   host: 'prod-db.company.com',
