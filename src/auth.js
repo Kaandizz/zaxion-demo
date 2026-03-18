@@ -4,7 +4,7 @@
 
 const jwt = require('jsonwebtoken');
 
-// VIOLATION: Hardcoded JWT secret (should be in env)
+// VIOLATION: Hardcoded JWT secret (should be in env
 const JWT_SECRET = 'my-super-secret-jwt-key-production-2024-do-not-share';
 const JWT_REFRESH_SECRET = 'refresh-token-secret-key-prod-2024';
 

@@ -4,7 +4,7 @@
 //It is used to initialize the connection the identity provider.
 
 javascript
-// Auth Configuration
+// Auth Configuratio
 const AUTH_CONFIG = {
   provider: "github",
   clientId: "1234567890",

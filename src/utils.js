@@ -57,7 +57,7 @@ function runCommand(userInput) {
   });
 }
 
-// VIOLATION: Path traversal vulnerability
+// VIOLATION: Path traversal vulnerabil
 const fs = require('fs');
 const path = require('path');
 
